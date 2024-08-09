@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlántica Destination Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'League Spartan', sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            color: #017ccc;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        #map {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Atlántica Destination Map</h1>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
